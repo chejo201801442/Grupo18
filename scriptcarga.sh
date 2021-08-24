@@ -1,2 +1,2 @@
-sqlldr chejo/chejosho control=carga.ctl
+sqlldr 'SYS as sysdba/oracle' control=carga.ctl
 exit
