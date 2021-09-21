@@ -1,6 +1,5 @@
 OPTIONS (SKIP=1)
 LOAD DATA
-INFILE "/home/Grupo18/[BD2] Productos.csv"
-INTO TABLE Producto
-fields terminated by "," (id_producto,nombre_producto,precio_producto,stock_producto)
-
+INFILE "/home/Grupo18/[BD2] Facturas.csv"
+INTO TABLE Factura
+fields terminated by "," (iid_factura,id_cliente,id_vendedor,fecha_factura "TO_DATE(:fecha_factura, 'DD/MM/YYYY', 'NLS_DATE_LANGUAGE=ENGLISH')")
