@@ -1,3 +1,3 @@
-sqlldr 'SYS as sysdba/oracle' control=carga.ctl
+sqlldr 'SYS as sho/1234' control=carga.ctl
 exit
 
