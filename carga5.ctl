@@ -3,4 +3,3 @@ LOAD DATA
 INFILE "/home/Grupo18/[BD2] Detalle.csv"
 INTO TABLE Detalle
 fields terminated by "," (id_detalle,id_factura,id_producto,cantidad)
-
