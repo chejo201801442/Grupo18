@@ -1,0 +1,2 @@
+sqlplus @ddl.sql
+exit
